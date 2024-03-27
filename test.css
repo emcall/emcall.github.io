@@ -1,3 +1,37 @@
 body{
-	background:#ee00ee;
+	background:#e1ebdd;
+	font-family: Calibri;
 	}
+#main{
+	margin: 0 auto;
+	width: 80%;
+	background-color: #f7fdf5;
+	border-right:2px solid #88a77c;
+	border-left:2px solid #88a77c;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 100%;
+}
+#intro{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	margin: 0 auto;
+}
+#introtext{
+	width: 20em;
+	font-size: 20pt;
+}
+#introphoto{
+	width: 40%;
+}
+button{
+	background-color: #88a77c;
+	border: 0;
+	margin: 1em;
+	padding: 1em;
+}
+
+h1, h2{
+	text-align: center;
+	font-size: 30pt;
+}
